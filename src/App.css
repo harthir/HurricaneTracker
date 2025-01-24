@@ -11,7 +11,7 @@ body{
   width: 100%;
 }
 
-.top h2{
+h2{
   font-family: Garamond, serif;
 }
 
@@ -48,7 +48,8 @@ body{
 
 .nav{
   display: flex;
-  background-color: lightblue;
+  background: linear-gradient(to right, rgba(140, 137, 137, 0.724), rgba(60, 60, 60, 0.8));
+  width: 100%;
 
   align-items: center;
 
@@ -59,9 +60,8 @@ body{
 
 }
 
-.nav a{
-  color: black;
-  
+.nav button{
+  color: white;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 10px;
@@ -72,9 +72,11 @@ body{
   font-weight: bold;
   font-size: 20px;
   
+  background-color: #444748;
+  
 }
 
-.nav a:hover{
+.nav button:hover{
   background-color: darkgray;
   cursor: pointer;
   color: black;
@@ -127,4 +129,89 @@ body{
 .tipsTricks{
   border: 5px solid lightblue;
  
+}
+
+#imageWeather{
+  height: 300px;
+  width: 100%;
+}
+
+.search-container {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.current-weather-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  border-width: 2px;
+  border-color: white;
+  border: solid;
+  width: 30%;
+}
+
+.current-weather-info p{
+  font-family: Garamond, serif;
+  font-size: 18px;
+}
+
+.today{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration-line: underline;
+  margin: 0;
+  border-width: 2px;
+}
+
+.fullWeather{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.weekly-weather{
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.weekly-day{
+  border: solid 2px white;
+  padding:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  text-align: center;
+}
+
+#day-header{
+  text-decoration: underline;
+  background-color: lightblue;
+  color: black;
 }

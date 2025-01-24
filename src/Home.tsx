@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Navbar from './Navbar'
+
 const tips = [
     {image: 'supplies.jpg.webp', description: 'Prepare supplies: Gather a 3-day supply of food and water for evacuation, and a 2-week supply for staying at home. Also include a first aid kit, medications, and important documents'},
     {image: 'boardHouses.jpg.webp', description: 'Secure your home: Close and brace all exterior doors, and close interior doors.'},
@@ -24,11 +24,8 @@ export default function Home(){
     const [indexTips, setIndexTips] = useState(0)
     return <>
     
-    <Navbar />
-    <div className = "top">
-        <h2 id = "header">Home Page</h2>
-        
-    </div>
+    
+    
     <div className = "image-container">
         <h1 id = "heading">Hurricane Ready</h1>
         <img id = "image" src = "hurricane.jpg" alt = "Hurricane"></img>
