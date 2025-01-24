@@ -1,4 +1,6 @@
 /* filepath: /Users/ashzerrr/Documents/Hurrican Alert/HurricaneTracker/src/Weather.css */
+
+
 .weather-container {
     text-align: center;
     padding: 20px;
@@ -74,4 +76,3 @@
   button:hover {
     background-color: #2980b9; /* Darker blue on hover */
   }
-  

@@ -11,7 +11,7 @@ function App() {
   
   const [currentPage, setCurrentPage] = useState('home')
   return (
-    <>
+    <div className="page_content">
 
 <br></br>
 <div className = "nav">
@@ -29,7 +29,7 @@ function App() {
       </div>
 
       
-    </>
+    </div>
       
   )
 }
