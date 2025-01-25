@@ -150,13 +150,13 @@ input {
 button {
   padding: 10px 20px;
   cursor: pointer;
-  background-color: #007BFF;
-  color: white;
+  background-color: lightblue;
+  color: black;
   border: none;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: gray;
 }
 
 .current-weather-info {
@@ -214,4 +214,51 @@ button:hover {
   text-decoration: underline;
   background-color: lightblue;
   color: black;
+}
+
+#map-style{
+  width: 100%
+}
+
+#actual-map{
+  width: 450px;
+  height: 420px;
+  margin: 0;
+}
+
+.each-shelter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid white;
+  padding: 30px;
+}
+.shelterSpots{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.each-shelter .text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  
+}
+.buttons{
+
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button{
+  margin: 30px;
+  width: 200px;
+  background-color: lightblue;
+  color: black;
+  font-size: 15px;
 }

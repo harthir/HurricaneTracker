@@ -6,6 +6,7 @@ import './App.css'
 
 import Home from './Home.tsx'
 import Weather from './Weather.tsx'
+import Shelter from './Shelter.tsx'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
 <div className = "nav">
           <button id = "home-button" onClick={()=> setCurrentPage('home')}>Home</button>
           <button id = "weather-button"onClick={()=> setCurrentPage('weather')}>Weather</button>
+          <button id = "map-button"onClick={()=> setCurrentPage('map')}>Map</button>
           
 
 
@@ -26,6 +28,7 @@ function App() {
         {currentPage=='home' && <Home />}
 
         {currentPage=='weather' && <Weather />} 
+        {currentPage=='map' && <Shelter />} 
       </div>
 
       
