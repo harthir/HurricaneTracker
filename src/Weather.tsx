@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import './Weather.css'; // Import the CSS file
 
 // API configuration
 const api = {
@@ -142,4 +143,8 @@ export default function Weather() {
       
     </div>
   );
+
+
+
+
 }
